@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans";
+}
+
+.ui-container {
+  width: 430px;
+  margin: 200px auto;
+  padding: 20px;
+  box-shadow: 0.1px 0.1px 3px 2px rgb(225, 223, 223);
+  border-radius: 5px;
+}
+
+.header {
+  border-bottom: 2px solid rgb(195, 193, 193);
+}
+
+.header h1 {
+  padding: 5px;
+  text-align: center;
+}
+
+.balance {
+  margin: 10px 0;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-evenly;
+  border: 1px solid rgb(169, 164, 164);
+  padding: 10px;
+  box-shadow: 0.1px 3px 1px rgb(169, 164, 164);
+  border-radius: 5px;
+}
+
+.divider {
+  border-left: 2px solid rgb(169, 164, 164);
+}
+
+.inc-conatiner,
+.exp-container {
+  font-weight: 500;
+}
+
+.inc-conatiner p {
+  color: green;
+}
+
+.exp-container p {
+  color: red;
+}
+
+.inc-conatiner h4,
+.exp-container h4 {
+  padding-bottom: 7px;
+}
+
+.transition-container ul {
+  list-style: none;
+}
+
+.transition-container {
+  padding: 10px;
+}
+
+.transition-container h3 {
+  border-bottom: 2px solid rgb(195, 193, 193);
+  padding: 10px 0;
+  margin-bottom: 15px;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0.1px 2px 1px rgb(171, 205, 235);
+  border-radius: 5px;
+  background-color: aliceblue;
+  margin: 10px 0;
+}
+
+.minus {
+  border-right: 4px solid red;
+}
+
+.plus {
+  border-right: 4px solid green;
+}
+
+.list li button {
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  color: red;
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+  right: -25px;
+  background: transparent;
+  transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+  opacity: 1;
+}
+
+.add-transition-conatiner {
+  padding: 10px;
+}
+
+.add-transition-conatiner h3 {
+  padding-bottom: 10px;
+}
+
+.form-control {
+  padding: 5px 0;
+}
+
+.text {
+  padding-right: 100px;
+}
+
+.amount {
+  padding-right: 72px;
+}
+
+.form-control input {
+  padding: 4px;
+}
+
+.add-transition-conatiner button {
+  cursor: pointer;
+  width: 70%;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-size: 16px;
+  margin: 20px auto 5px auto;
+  border: none;
+  background-color: rgb(2, 108, 2);
+  color: white;
+  display: block;
+}
